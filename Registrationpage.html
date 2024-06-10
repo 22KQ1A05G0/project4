@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>
+Registartion Page</title>
+</head>
+<body>
+    <style>
+         /*  Smart phone      */
+                  
+         @media screen and (min-width:320px )  {
+
+body {
+     background-color: aqua;
+}
+}
+/*  Tablet,ipad      */    
+
+@media Screen and (min-width:768px) and (max-width:1024px){
+body {
+     background-color: rgb(177, 48, 48);
+}
+}
+
+/* Desktops and Laptops asfsdf     */    
+
+@media Screen and (min-width:1224px) {
+body {
+     background-color: rgb(48, 151, 8);
+}
+}
+
+/* Large Screens---------  */
+@media Screen and (min-width:1824px) {
+body {
+     background-color: rgb(101, 51, 208);
+}
+}
+           
+        h1{
+                text-align:center;
+            }
+            body{
+                text-align: center;
+            }
+            h3{
+                color:blueviolet;
+            }
+    </style>
+<h3>Registration</h3>
+<form action="loginpage.html">
+Name:<input type="text" name="autofocus"><br>
+password:<input type="text" name="pass"> <br> 
+E-mail ID:<input type="text" name="email"><br>
+Gender:<input type="radio"name="gender" value="f">Female<br>
+       <input type="radio" name="gender" value="M">Male<br>
+       <input type="radio"name="gender" value="O">Others<br>
+
+    Date of Birth : <input type="date" name="bname">  <br>
+    Date of joining: <input type="date" name="bname">  <br>
+    Phone Number:  <input type="tel" name="personal" id="per1" pattern="[0-9]{10}" title="the ten digits number">
+        <br>
+  
+
+Address:<input type="text" name="name"> <br>
+Hobbies:<input type="checkbox" name="checkbox1" value="checkbox">reading books<br>
+<input type="checkbox" name="checkbox2" value="checkbox">playing games<br>
+Message:<textarea name="textarea" cols="35" rows="3"></textarea>
+<br><input type="submit">
+<input type="Reset">
+</form>
+</body>
+</html>
